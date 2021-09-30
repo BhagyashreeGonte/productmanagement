@@ -12,13 +12,9 @@ const envKey = key => {
           host: "localhost",
           port: 5432,
           database: "productdb"
-          // max: 15,
-          // idleTimeoutMillis: 10000,        //10 Sec
-          // connectionTimeoutMillis : 30000   //30 Sec
         }
       },
       swaggerOpts: {
-        // grouping: "tags",
         info: {
           title: "Client APIs",
           description: "REST APIs to manage ACL of system and client users",
