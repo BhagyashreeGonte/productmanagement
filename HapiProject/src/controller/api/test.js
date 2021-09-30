@@ -103,7 +103,7 @@ const getProductDetails = {
 
 const updateOrDeleteUser = {
   auth: false,
-  tags: ["api", "Product"],
+  tags: ["api", "User"],
   description: "Make user as inactive / delete user",
   validate: {
     payload: {
@@ -228,7 +228,7 @@ const deleteProducts = {
 
 const addProductDetails = {
   auth: false,
-  tags: ["api", "User"],
+  tags: ["api", "Product"],
   description: "Register User",
   validate: {
     payload: {
